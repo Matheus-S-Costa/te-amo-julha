@@ -335,6 +335,11 @@ cubic-bezier(0.42,0,0.58,1);
         background-color: hsla(0,0%,0%,0.5);
     }
 }
+@media (max-width: 850px) {
+    .e-rating{
+    margin-left: 32px;  
+    }
+  }
 
 /* `:focus-visible` support */
 @supports selector(:focus-visible) {
